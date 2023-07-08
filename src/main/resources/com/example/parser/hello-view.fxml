@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="254.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parser.HelloApplication">
+    <children>
+        <Button fx:id="compile_btn" layoutX="140.0" layoutY="215.0" mnemonicParsing="false" onAction="#CompileText" text="Compile" />
+        <TextArea fx:id="answer" layoutX="14.0" layoutY="14.0" prefHeight="192.0" prefWidth="312.0" />
+    </children>
+</AnchorPane>
